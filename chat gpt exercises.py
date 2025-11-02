@@ -60,3 +60,18 @@
 
 
 # correcting the excises after this
+
+
+# 1. Even or Odd
+# Write a Python program that asks the user for a number and prints whether it’s even or odd.
+
+user_answer = int(input(f"Please enter a number to check if it's an odd or even number: \n"))
+
+if user_answer % 2 == 0:
+    result = "even"
+else:
+    result = "odd"
+
+
+print(f"The number you have entered is a {result} number!")
+
